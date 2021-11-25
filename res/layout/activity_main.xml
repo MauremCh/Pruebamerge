@@ -56,38 +56,35 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:background="#757575"
             android:backgroundTint="#757575"
             android:gravity="center"
+            android:textColor="@color/brown_400"
             android:text="@string/text_registro"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/brown_400"
             android:textSize="25sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:background="#757575"
             android:backgroundTint="#BCAAA4"
             android:text="@string/text_codigo"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="20sp" />
 
         <EditText
             android:id="@+id/edtcodarticulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:background="#bdbdbd"
             android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
             android:background="#BCAAA4"
             android:backgroundTint="#BCAAA4"
             android:text="@string/text_fecha"
@@ -106,7 +103,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_marginBottom="10dp"
             android:background="#BCAAA4"
             android:backgroundTint="#BCAAA4"
             android:text="@string/text_abono"
@@ -118,14 +114,13 @@
             android:id="@+id/edtvalormc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:background="#bdbdbd"
             android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
             android:background="#BCAAA4"
             android:backgroundTint="#BCAAA4"
             android:text="@string/text_saldo"
@@ -137,7 +132,6 @@
             android:id="@+id/edtarea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:background="#bdbdbd"
             android:textSize="20sp" />
 
